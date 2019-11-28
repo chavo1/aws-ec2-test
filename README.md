@@ -1,1 +1,3 @@
-# aws-ec2-test
+# aws-azure-test
+
+ssh azureuser@<public azurevm address>
