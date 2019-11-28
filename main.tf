@@ -4,5 +4,6 @@ provider "aws" {
 
 #server
 module "server" {
-  source = "./server"
+  source       = "./server"
+  server_count = var.server_count
 }
