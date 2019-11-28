@@ -3,3 +3,6 @@ resource "aws_instance" "web" {
   instance_type = "t2.micro"
   key_name      = "chavo"
 }
+resource "aws_ec2_transit_gateway" "example" {
+  description = "example"
+}
