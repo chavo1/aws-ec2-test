@@ -70,7 +70,6 @@ resource "azurerm_network_interface" "chavo-nic" {
   name                      = "chavoNIC-${count.index}"
   location                  = "eastus"
   resource_group_name       = azurerm_resource_group.chavo-group.name
-  network_security_group_id = azurerm_network_security_group.chavo-sg.id
 
   ip_configuration {
     name                          = "chavoNicConfiguration"
